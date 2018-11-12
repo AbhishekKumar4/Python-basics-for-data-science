@@ -5,6 +5,15 @@
  - We can extend over multiple lines with the line continuation character (\)
  - We can implement the multi-line statement also by using ( ), brackets [ ] and braces { }.
  
+ ![alt text]( https://raw.githubusercontent.com/AbhishekKumar4/Python-basics-for-data-science/master/Statement-Indentation-Comments/p_statement.PNG)
+ 
+ ![alt text]( https://raw.githubusercontent.com/AbhishekKumar4/Python-basics-for-data-science/master/Statement-Indentation-Comments/p_statement2.PNG)
+ 
+ ![alt text]( https://raw.githubusercontent.com/AbhishekKumar4/Python-basics-for-data-science/master/Statement-Indentation-Comments/p_statement3.PNG)
+ 
+ ![alt text]( https://raw.githubusercontent.com/AbhishekKumar4/Python-basics-for-data-science/master/Statement-Indentation-Comments/p_statement4.PNG)
+ 
+ ![alt text]( https://raw.githubusercontent.com/AbhishekKumar4/Python-basics-for-data-science/master/Statement-Indentation-Comments/p_statements5.PNG)
  
  **Rules for Indentation**
  - C, C++, Java use braces { } to define a block of code. Python uses indentation.
