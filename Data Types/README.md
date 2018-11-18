@@ -14,3 +14,16 @@
  - Tuples
  - Sets
  - Dictionaries
+ 
+ # Booleans
+  - Boolean in Python can have two values – True or False.
+  - In some cases, the boolean constants “True” and “False” might also act as numbers.
+  
+  ```
+  >>> A, B = True + 0, False + 0
+  >>> print(A, B)
+  1 0
+  ```
+  
+  - It is evident from the above example that True is 1 and the value of False is 0. And they will turn into numbers during arithmetic operations.
+  
