@@ -66,3 +66,19 @@
   >>> complex(1.2,5)
   (1.2+5j)
 ```
+# Strings
+
+- sequence of one or more characters enclosed within either single quotes ‘ or double quotes ”
+- Python also supports multi-line strings which require a triple quotation mark at the start and one at the end.
+
+```
+>>> str = 'A string wrapped in single quotes'
+>>> str
+'A string wrapped in single quotes'
+>>> str = "A string enclosed within double quotes"
+>>> str
+'A string enclosed within double quotes'
+>>> str = """A multiline string
+starts and ends with
+a triple quotation mark."""
+```
