@@ -168,7 +168,22 @@ print(nested_tuple)
 
   ````
   
-  
+  **Tuple Slicing**
+````  
+sample_tuple = (0 ,1, 2, 3, 4)
+
+tuple_without_first_item = sample_tuple[1:]
+print(tuple_without_first_item)
+
+tuple_reverse = sample_tuple[::-1]
+print(tuple_reverse)
+````
+
+**Tuple V/S List**
+
+- Tuples do differ a bit from the list as they are immutable.
+- Python does not allow to modify a tuple after it is created.
+- We can not add or remove any element later. Instead, Python expects us to create a new one with the updated sequence of elements.
 
 
 
