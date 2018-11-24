@@ -185,6 +185,9 @@ print(tuple_reverse)
 - Python does not allow to modify a tuple after it is created.
 - We can not add or remove any element later. Instead, Python expects us to create a new one with the updated sequence of elements.
 
+**Tuple with Mutable Objects As Elements**
+
+Modifying a tuple is forbidden. But Python doesn’t enforce it on the elements. It means we can update them if they are mutable objects.
 
 
 
