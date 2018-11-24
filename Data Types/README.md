@@ -189,5 +189,12 @@ print(tuple_reverse)
 
 Modifying a tuple is forbidden. But Python doesn’t enforce it on the elements. It means we can update them if they are mutable objects.
 
+**Need of tuple**
+
+- Python uses tuples to return multiple values from a function.
+- Tuples are more lightweight than lists.
+- It works as a single container to stuff multiple things.
+- We can use them as a key in a dictionary.
+
 
 
