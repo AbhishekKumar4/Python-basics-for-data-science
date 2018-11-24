@@ -133,3 +133,15 @@ True
 		
 1 1 1 2 2 2 3 3 3
 ````
+
+**Slicing A List in python**
+
+- The list is also one of the Python data types which supports slicing like we learned previously with Strings. With the slicing operator [ ], we can extract an element or a bunch of them from a list.
+
+````
+>>> languages = ['C', 'C++', 'Python', 'Java', 'Go', 'Angular']
+>>> print('languages[0:3] = ', languages[0:3])
+languages[0:3] =  ['C', 'C++', 'Python']
+>>> print('languages[2:] = ', languages[2:])
+languages[2:] =  ['Python', 'Java', 'Go', 'Angular']
+````
