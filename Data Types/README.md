@@ -87,3 +87,8 @@ a triple quotation mark."""
 - The byte is an immutable type in Python. It can store a sequence of bytes (each 8-bits) ranging from 0 to 255.
 - Similar to an array, we can fetch the value of a single byte by using the index. But we can not modify the value.
 
+**Differences between a byte and the string**
+
+  - Byte objects contain a sequence of bytes whereas the strings store sequence of characters.
+  - The bytes are machine-readable objects whereas the strings are just in human-readable form.
+  - Since the byte is machine-readable, so they can be directly stored to the disk. Whereas, the strings first need to encoded before       getting on to the disk.
