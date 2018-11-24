@@ -92,3 +92,16 @@ a triple quotation mark."""
   - Byte objects contain a sequence of bytes whereas the strings store sequence of characters.
   - The bytes are machine-readable objects whereas the strings are just in human-readable form.
   - Since the byte is machine-readable, so they can be directly stored to the disk. Whereas, the strings first need to encoded before       getting on to the disk.
+  
+# Lists
+
+- Python list is an array like construct which stores arbitrarily typed objects in an ordered sequence. It is very flexible and does not have a fixed size. Index in a list begins with zero in Python.
+- It is a heterogeneous collection of items of varied data types. For example, a list object can store the files in a folder, or the employee data in a company etc.
+
+````
+>>> this_is_list = [True, False, 1, 1.1, 1+2j, 'Learn', b'Python']
+>>> first_element = this_is_list[0]
+>>> print(first_element)
+True
+
+````
