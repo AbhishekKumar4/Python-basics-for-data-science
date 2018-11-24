@@ -145,3 +145,31 @@ languages[0:3] =  ['C', 'C++', 'Python']
 >>> print('languages[2:] = ', languages[2:])
 languages[2:] =  ['Python', 'Java', 'Go', 'Angular']
 ````
+
+# Tuples
+
+A tuple is a heterogeneous collection of Python objects separated by commas. It means objects of different data types can co-exist in a tuple.
+
+- Define a tuple using enclosing parentheses () having its elements separated by commas inside.
+
+The tuple and a list are somewhat similar as they share the following traits.
+  - Both objects are an ordered sequence.
+  - They enable indexing and repetition.
+  - Nesting is allowed.
+  - They can store values of different types.
+  
+  ````
+# tuple with nesting
+first_tuple = (3, 5, 7, 9)
+second_tuple = ('learn', 'python 3')
+nested_tuple = (first_tuple, second_tuple)
+print(nested_tuple)
+# Output - ((3, 5, 7, 9), ('learn', 'python 3'))
+
+  ````
+  
+  
+
+
+
+
