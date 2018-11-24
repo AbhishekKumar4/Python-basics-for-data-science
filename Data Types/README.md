@@ -105,3 +105,18 @@ a triple quotation mark."""
 True
 
 ````
+
+- List objects are mutable. Python allows modifying a list or its elements via assignments as well as through the built-in list methods.
+
+````
+>>> alist = ['This', 'is', 'list']
+>>> id(alist)
+56321160
+>>> alist
+['This', 'is', 'list']
+>>> alist[2] = 'a list'
+>>> id(alist)
+56321160
+>>> alist
+['This', 'is', 'a list']
+````
