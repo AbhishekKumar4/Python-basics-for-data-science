@@ -82,3 +82,8 @@
 starts and ends with
 a triple quotation mark."""
 ```
+# Bytes
+
+- The byte is an immutable type in Python. It can store a sequence of bytes (each 8-bits) ranging from 0 to 255.
+- Similar to an array, we can fetch the value of a single byte by using the index. But we can not modify the value.
+
