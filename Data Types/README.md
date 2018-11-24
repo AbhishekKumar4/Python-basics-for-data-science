@@ -120,3 +120,16 @@ True
 >>> alist
 ['This', 'is', 'a list']
 ````
+
+**Nested List**
+
+- A list can contain another list. Such a list is called as the nested list.
+
+````
+>>> nested = [[1,1,1], [2,2,2], [3,3,3]]
+>>> for items in nested:
+	for item in items:
+		print(item, end=' ')
+		
+1 1 1 2 2 2 3 3 3
+````
