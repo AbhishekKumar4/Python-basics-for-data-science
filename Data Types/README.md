@@ -220,4 +220,10 @@ pythonDictionary['2'] = 'Manmeet'
 print(pythonDictionary)
 
 output : {'2': 'Manmeet', '1': 'Abhishek'}
+
+# Getting value on the basis of key
+print(pythonDictionary['1'])
+
+output : Abhishek
+
 ````
