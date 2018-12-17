@@ -212,3 +212,12 @@ Set is an unordered collection of unique items. Set is defined by values separat
 - It is generally used when we have a huge amount of data. Dictionaries are optimized for retrieving data. We must know the key to retrieve the value.
 - Dictionaries are defined within braces {} with each item being a pair in the form key:value. Key and value can be of any type.
 
+````
+pythonDictionary = {}
+pythonDictionary['1'] = 'Abhishek'
+pythonDictionary['2'] = 'Manmeet'
+
+print(pythonDictionary)
+
+output : {'2': 'Manmeet', '1': 'Abhishek'}
+````
