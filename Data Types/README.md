@@ -227,3 +227,14 @@ print(pythonDictionary['1'])
 output : Abhishek
 
 ````
+
+**Iterating over dictionary**
+
+````
+for data in pythonDictionary:
+    print('Key is in data : ', data, 'Value is this : ', pythonDictionary[data])
+    
+    
+Output :: Key is in data :  1 Value is this :  Abhishek
+          Key is in data :  2 Value is this :  Manmeet
+````
