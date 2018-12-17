@@ -206,5 +206,9 @@ Set is an unordered collection of unique items. Set is defined by values separat
 {1, 2, 3}
 ````
 
+# Dictionary
+
+- Dictionary is an unordered collection of key-value pairs (as in java).
+
 
 
